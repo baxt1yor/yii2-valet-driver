@@ -1,13 +1,6 @@
 # yii2-valet-driver
 Yii2 Valet Driver
 
-> install 
-
-```
-cd ~/.composer/vendor/laravel/valet/cli/Valet/Drivers
-wget https://raw.githubusercontent.com/chinaphp/yii2-valet-driver/master/Yii2ValetDriver.php
-```
-
 ## yii2-app-basic
 
 ```
@@ -19,6 +12,20 @@ http://app-name.test
 
 ```
 cd backend
-valet link backend-app-name
-http://backend-app-name.test
+valet link admin.simple
+http://admin.simple.test
+
+cd frontend
+valet link simple
+http://simple.test
+```
+
+and
+
+config assets URL if you use the link for the assets folder and set the link
+
+```
+cd assets
+valet link assets.simple
+http://assets.simple.test
 ```
