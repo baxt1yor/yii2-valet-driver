@@ -4,7 +4,7 @@ Yii2 Valet Driver
 > install 
 
 ```
-cd ~/.config/valet/Drivers/Specific/
+cd ~/.composer/vendor/laravel/valet/cli/Valet/Drivers
 wget https://raw.githubusercontent.com/chinaphp/yii2-valet-driver/master/Yii2ValetDriver.php
 ```
 
